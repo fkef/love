@@ -1,0 +1,84 @@
+
+
+
+.header{
+    padding: 25px;
+    background-color: #f05650;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+.body {
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  img {
+    margin: auto;
+    display: block;
+}
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+overflow: hidden;
+    background-color: ghostwhite;
+  }
+
+  li{
+    float: left;
+  }
+
+  li a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    display: block;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  .body{
+      margin: 0;
+  }
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+
+.column .side {
+    width: 25%;
+}
+
+.column .middle {
+    width: 50%;
+}
+
+@media screen  and(max-width:600px){
+    .column .side,.column .middle {
+        width: 100%;
+    }
+}
+
+  li a:hover{
+    background-color: aliceblue;
+  }
+
+
+  b{
+    background-color: #ced4da;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
